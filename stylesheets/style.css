@@ -1,0 +1,241 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-size: cover;
+     background-image:
+        url("https://i.pinimg.com/originals/fa/10/12/fa1012ddf85f0b68f576bc83a879aca8.jpg");
+	background-attachment: fixed;
+}
+
+.filter-by-vendors{
+    background-color: rgb(184, 235, 250);
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 200px;
+    border-radius: 10px;
+    float: left;
+}
+
+.checkbox-input{
+    color: black;
+}
+
+.image{
+	padding-top: "100px";
+}
+
+.cl-header{
+	background: #fff;
+}
+
+.cl-header::after{
+	content:"";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+
+.cl-container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.cl-logo{
+	width: 100px;
+	height: 70px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float:left;
+}
+
+.cl-company-name{
+	padding-left: 10px;
+	padding-top: 20px;
+	font-size: 30px;
+	float: left;
+}
+
+.cl-nav{
+	float: right;
+}
+
+.cl-nav ul li{
+	padding-top: 30px;
+	padding-right: 30px;
+	display: inline-block;
+}
+
+.cl-nav ul li a{
+	text-decoration: none;
+	color: #303030;
+}
+
+.cl-nav ul li a:hover{
+	color:plum;
+}
+
+.heading{
+    color: whitesmoke;
+    font-size: 50px;
+    text-shadow:2px 2px 4px peru;
+}
+
+.table-design{
+    border-radius: 5px;
+}
+
+thead{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+} 
+
+tbody{
+    background-color: rgb(209, 191, 191);
+}
+
+td{
+	color: black;
+}
+
+table {
+	border: 2px solid white;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.cl-checkbox{
+    padding: 5px;
+}
+
+h5{
+	color:black;
+}
+
+.jumbotron{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img17/Home/LA/GW/pavitb_2018-04-20T08-10_052401_1110175_MajorAppliances_Cashback_GW_pc_1500x300._CB497790823_.jpg");
+	background-size: cover;
+	height: 300px;
+	width: 120px;
+}
+
+.signup-form{
+	border: 2px solid beige;
+}
+
+.signup-text{
+	color: white;
+	font-size: 16px;
+}
+
+.register-box {
+    width: 500px;
+	background-color: #fff;
+    box-shadow: 6px 6px black;
+    padding: 20px 20px;
+	border-radius: 18px;
+}
+
+.app-base{
+	color: inherit;
+}
+
+fieldset {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    min-width: -webkit-min-content;
+}
+
+.register-input-item {
+    position: relative;
+}
+
+.register-user-input {
+    display: block;
+    color: #282c3f;
+    font-size: 15px;
+    padding-right: 40px;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+}
+
+.register-user-input-password {
+    border-top: 1px solid #d5d6d9;
+}
+
+.register-user-input-name {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.register-register-form {
+    margin: 0;
+}
+
+.register-title {
+    font-size: 32px;
+    margin-top: 15px;
+    color: #535766;
+}
+
+.register-input-container {
+    margin: 20px;
+    border: 1px solid #bfc0c6;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.register-register-button-container {
+    padding: 10px 20px;
+    margin: 0;
+    border: 0;
+}
+
+.register-register-button {
+    background-color: #ff527b;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    border: 0;
+    text-transform: uppercase;
+    border-radius: 3px;
+	font-family: Whitney;
+	cursor: pointer;
+}
+
+.register-login-link {
+    text-align: center;
+}
+
+.register-info-text {
+    color: #94969f;
+    font-size: 12px;
+}
+
+.register-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ff527b;
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+.register-create-account-link {
+    margin-left: 5px;
+}
